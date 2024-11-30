@@ -174,44 +174,39 @@
 
     <androidx.constraintlayout.utils.widget.ImageFilterView
         android:id="@+id/btn_menu1"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="32dp"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
         android:layout_marginTop="16dp"
-        app:altSrc="@drawable/ic_circle_full_24"
-        app:layout_constraintEnd_toStartOf="@+id/btn_menu2"
+        app:altSrc="@drawable/ic_circle_full_active"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/logoMenu1"
-        app:srcCompat="@drawable/ic_circle_24"
-        app:tint="@color/pink" />
+        app:layout_constraintEnd_toStartOf="@+id/btn_menu2"
+        app:srcCompat="@drawable/ic_circle_full_inactive" />
 
     <androidx.constraintlayout.utils.widget.ImageFilterView
         android:id="@+id/btn_menu2"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        app:altSrc="@drawable/ic_circle_full_24"
-        app:layout_constraintBottom_toBottomOf="@+id/btn_menu1"
-        app:layout_constraintEnd_toStartOf="@+id/btn_menu3"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        app:srcCompat="@drawable/ic_circle_full_inactive"
+        app:altSrc="@drawable/ic_circle_full_active"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_menu1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/btn_menu1"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_menu1"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/ic_circle_24"
-        app:tint="@color/pink" />
+        />
 
     <androidx.constraintlayout.utils.widget.ImageFilterView
         android:id="@+id/btn_menu3"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        app:altSrc="@drawable/ic_circle_full_24"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        app:altSrc="@drawable/ic_circle_full_active"
         app:layout_constraintBottom_toBottomOf="@+id/btn_menu2"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/btn_menu2"
         app:layout_constraintTop_toTopOf="@+id/btn_menu2"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/ic_circle_24"
-        android:layout_marginEnd="32dp"
-        app:tint="@color/pink" />
+        app:srcCompat="@drawable/ic_circle_full_inactive"
+        android:layout_marginEnd="10dp"/>
 </androidx.constraintlayout.motion.widget.MotionLayout>

@@ -41,13 +41,12 @@
             android:layout_marginTop="24dp" />
         <Constraint
             android:id="@+id/btn_menu1"
-            motion:layout_constraintEnd_toStartOf="@+id/btn_menu2"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            motion:layout_constraintTop_toBottomOf="@id/logoMenu1"
-            android:layout_marginStart="32dp"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginStart="10dp"
             motion:layout_constraintHorizontal_bias="0.5"
-            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toBottomOf="@id/logoMenu1"
+            motion:layout_constraintEnd_toStartOf="@+id/btn_menu2"
             android:layout_marginTop="16dp" >
             <CustomAttribute
                 motion:attributeName="crossfade"
@@ -55,36 +54,34 @@
         </Constraint>
         <Constraint
             android:id="@+id/btn_menu2"
-            motion:layout_constraintEnd_toStartOf="@+id/btn_menu3"
-            motion:layout_constraintStart_toEndOf="@+id/btn_menu1"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            motion:layout_constraintBottom_toBottomOf="@+id/btn_menu1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
             motion:layout_constraintVertical_bias="0.0"
             motion:layout_constraintHorizontal_bias="0.5"
-            motion:layout_constraintTop_toTopOf="@+id/btn_menu1" />
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintTop_toTopOf="@+id/btn_menu1"
+            motion:layout_constraintBottom_toBottomOf="@+id/btn_menu1" />
         <Constraint
             android:id="@+id/btn_menu3"
-            motion:layout_constraintEnd_toEndOf="parent"
-            motion:layout_constraintStart_toEndOf="@+id/btn_menu2"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginEnd="32dp"
-            motion:layout_constraintBottom_toBottomOf="@+id/btn_menu2"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginEnd="10dp"
             motion:layout_constraintVertical_bias="0.0"
             motion:layout_constraintHorizontal_bias="0.5"
-            motion:layout_constraintTop_toTopOf="@+id/btn_menu2" />
+            motion:layout_constraintTop_toTopOf="@+id/btn_menu2"
+            motion:layout_constraintBottom_toBottomOf="@+id/btn_menu2"
+            motion:layout_constraintStart_toEndOf="@+id/btn_menu2"/>
     </ConstraintSet>
     <ConstraintSet android:id="@+id/menu1" >
         <Constraint
             android:id="@+id/btn_menu1"
             motion:layout_constraintEnd_toStartOf="@+id/btn_menu2"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
             motion:layout_constraintTop_toBottomOf="@id/logoMenu1"
-            android:layout_marginStart="32dp"
+            android:layout_marginStart="10dp"
             motion:layout_constraintHorizontal_bias="0.5"
-            motion:layout_constraintStart_toStartOf="parent"
             android:layout_marginTop="16dp" >
             <CustomAttribute
                 motion:attributeName="crossfade"
@@ -92,10 +89,10 @@
         </Constraint>
         <Constraint
             android:id="@+id/btn_menu2"
-            motion:layout_constraintEnd_toStartOf="@+id/btn_menu3"
-            motion:layout_constraintStart_toEndOf="@+id/btn_menu1"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
             motion:layout_constraintBottom_toBottomOf="@+id/btn_menu1"
             motion:layout_constraintVertical_bias="0.0"
             motion:layout_constraintHorizontal_bias="0.5"
@@ -135,10 +132,10 @@
             android:layout_marginTop="24dp" />
         <Constraint
             android:id="@+id/btn_menu2"
-            motion:layout_constraintEnd_toStartOf="@+id/btn_menu3"
-            motion:layout_constraintStart_toEndOf="@+id/btn_menu1"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
             motion:layout_constraintBottom_toBottomOf="@+id/btn_menu1"
             motion:layout_constraintVertical_bias="0.0"
             motion:layout_constraintHorizontal_bias="0.5"
@@ -150,12 +147,11 @@
         <Constraint
             android:id="@+id/btn_menu1"
             motion:layout_constraintEnd_toStartOf="@+id/btn_menu2"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
             motion:layout_constraintTop_toBottomOf="@id/logoMenu1"
-            android:layout_marginStart="32dp"
+            android:layout_marginStart="10dp"
             motion:layout_constraintHorizontal_bias="0.5"
-            motion:layout_constraintStart_toStartOf="parent"
             android:layout_marginTop="16dp" >
             <CustomAttribute
                 motion:attributeName="crossfade"
@@ -197,11 +193,10 @@
             android:layout_marginTop="8dp" />
         <Constraint
             android:id="@+id/btn_menu3"
-            motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintStart_toEndOf="@+id/btn_menu2"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginEnd="32dp"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginEnd="10dp"
             motion:layout_constraintBottom_toBottomOf="@+id/btn_menu2"
             motion:layout_constraintVertical_bias="0.0"
             motion:layout_constraintHorizontal_bias="0.5"
@@ -256,11 +251,10 @@
 
         <Constraint
             android:id="@+id/btn_menu3"
-            motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintStart_toEndOf="@+id/btn_menu2"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginEnd="32dp"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginEnd="10dp"
             motion:layout_constraintBottom_toBottomOf="@+id/btn_menu2"
             motion:layout_constraintVertical_bias="0.0"
             motion:layout_constraintHorizontal_bias="0.5"
@@ -272,10 +266,10 @@
         </Constraint>
         <Constraint
             android:id="@+id/btn_menu2"
-            motion:layout_constraintEnd_toStartOf="@+id/btn_menu3"
-            motion:layout_constraintStart_toEndOf="@+id/btn_menu1"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
             motion:layout_constraintBottom_toBottomOf="@+id/btn_menu1"
             motion:layout_constraintVertical_bias="0.0"
             motion:layout_constraintHorizontal_bias="0.5"
